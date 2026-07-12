@@ -2,14 +2,7 @@
 pkgname=clipmenu
 version=20260403
 revision=1
-#archs="i686 x86_64"
-#build_wrksrc=
 build_style=gnu-makefile
-#configure_args=""
-#make_build_args=""
-#make_install_args=""
-#conf_files=""
-#make_dirs="/var/log/dir 0755 root root"
 hostmakedepends="git"
 makedepends="libX11-devel libXfixes-devel"
 depends="clipnotify"
